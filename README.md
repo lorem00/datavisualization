@@ -1,4 +1,3 @@
-# WootCloud UI
 
 ## Pre-requisites
 - Node v8.9.1+
@@ -32,31 +31,3 @@ _Mock server will run at port 3000 by default, and devserver will boot up at por
 - `$ npm run build`
 - `$ npm start`
 
-### Deployment
-
-To run a deployment on the staging server, you must follow these steps:
-
-- Make sure your branch is rebased with the lastest in `master`
-- Connect to the bastion server
-- From the bastion server, connect to the `api-n02` server
-- `$ cd UI`
-- `$ git reset HEAD --hard`
-- `$ git fetch`
-- `$ git checkout <your-branch>`
-- `$ npm install`
-- Make sure you have the right environment variable set: `$ export NODE_ENV=production`
-- `$ npm run build`
-- We need to find which is the process that corresponds to the web server: `$ sudo lsof -t -i:8080`
-- `$ sudo kill -9 <process-number>`
-- Start up the server: `$ sudo nohup npm start &`
-
-### Contributing / Onboarding
-
-You shall:
-* Use JIRA for tickets, making them nice and properly described, with a nice title that sums up the task.
-* Keep the JIRA board updated at all times, if there is no ticket for the task you're on, create it and prioritize it correctly.
-* Use branch's name convention: `<name>/<ticket-number>/<short-description>`.
-* Use commit's name convention: `<ticket-number> - <commit-message-longer-than-the-short-description`.
-* Create one commit for each ticket you worked on.
-* Create a PR with one or more commits, as long as you keep them organized and short.
-* Ask for somebody in the team to do a code review and approve your changes.
