@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>A D M I N --- Snapshot +++capturing Snapshot of Home 1`] = `
+<div>
+  <div
+    className="header-container"
+  >
+    <PageHeading
+      title="User Management"
+      url="/admin"
+    />
+  </div>
+  <section
+    className="paddedRow"
+  >
+    <BootstrapTable
+      autoCollapse={
+        Object {
+          "filter": false,
+          "search": false,
+          "sort": false,
+        }
+      }
+      bodyContainerClass={null}
+      bodyStyle={undefined}
+      bordered={true}
+      cellEdit={
+        Object {
+          "afterSaveCell": undefined,
+          "beforeSaveCell": undefined,
+          "blurToEscape": false,
+          "blurToSave": false,
+          "mode": "none",
+          "nonEditableRows": undefined,
+        }
+      }
+      columnFilter={false}
+      condensed={false}
+      containerClass={null}
+      containerStyle={undefined}
+      csvFileName="spreadsheet.csv"
+      data={
+        Array [
+          Object {
+            "account": "3a838c14-7a8e-4bc0-8e30-ea2372f6daec",
+            "email": "ajalbani@wootcloud.com",
+            "id": "59dd13e1a6796b873e23acfd",
+            "roledisplay": "Administrator, Customer",
+            "roles": Array [
+              "admin",
+              "customer",
+            ],
+          },
+        ]
+      }
+      deleteRow={false}
+      expandColumnOptions={
+        Object {
+          "expandColumnBeforeSelectColumn": true,
+          "expandColumnComponent": undefined,
+          "expandColumnVisible": false,
+        }
+      }
+      expandComponent={undefined}
+      expandableRow={undefined}
+      exportCSV={false}
+      fetchInfo={
+        Object {
+          "dataTotalSize": 0,
+        }
+      }
+      footer={false}
+      headerContainerClass={null}
+      headerStyle={undefined}
+      height="100%"
+      hover={false}
+      ignoreSinglePage={false}
+      insertRow={false}
+      keyBoardNav={false}
+      maxHeight={undefined}
+      multiColumnSearch={false}
+      multiColumnSort={1}
+      options={
+        Object {
+          "afterColumnFilter": undefined,
+          "afterDeleteRow": undefined,
+          "afterInsertRow": undefined,
+          "afterSearch": undefined,
+          "afterTableComplete": undefined,
+          "alwaysShowAllBtns": false,
+          "beforeShowError": undefined,
+          "btnGroup": undefined,
+          "clearSearch": false,
+          "clearSearchBtn": undefined,
+          "closeText": "Close",
+          "defaultSearch": "",
+          "defaultSortName": undefined,
+          "defaultSortOrder": undefined,
+          "deleteBtn": undefined,
+          "deleteText": "Delete",
+          "excludeCSVHeader": false,
+          "expandBodyClass": null,
+          "expandBy": "row",
+          "expandParentClass": null,
+          "expandRowBgColor": undefined,
+          "expanding": Array [],
+          "exportCSVBtn": undefined,
+          "exportCSVSeparator": ",",
+          "exportCSVText": "Export to CSV",
+          "firstPage": "<<",
+          "firstPageTitle": "first page",
+          "handleConfirmDeleteRow": undefined,
+          "hidePageListOnlyOnePage": false,
+          "hideSizePerPage": false,
+          "ignoreEditable": false,
+          "insertBtn": undefined,
+          "insertFailIndicator": "Validation errors, please check!",
+          "insertModal": undefined,
+          "insertModalBody": undefined,
+          "insertModalFooter": undefined,
+          "insertModalHeader": undefined,
+          "insertText": "New",
+          "keepSizePerPageState": false,
+          "lastPage": ">>",
+          "lastPageTitle": "last page",
+          "nextPage": ">",
+          "nextPageTitle": "next page",
+          "noAutoBOM": true,
+          "noDataText": undefined,
+          "onExpand": undefined,
+          "onMouseEnter": undefined,
+          "onMouseLeave": undefined,
+          "onRowClick": undefined,
+          "onRowDoubleClick": undefined,
+          "onRowMouseOut": undefined,
+          "onRowMouseOver": undefined,
+          "onSizePerPageList": undefined,
+          "onlyOneExpanding": false,
+          "page": undefined,
+          "pageStartIndex": 1,
+          "paginationPanel": undefined,
+          "paginationPosition": "bottom",
+          "paginationShowsTotal": false,
+          "paginationSize": 5,
+          "prePage": "<",
+          "prePageTitle": "previous page",
+          "printToolBar": true,
+          "saveText": "Save",
+          "searchDelayTime": undefined,
+          "searchField": undefined,
+          "searchPanel": undefined,
+          "searchPosition": "right",
+          "showSelectedOnlyBtn": undefined,
+          "sizePerPage": undefined,
+          "sizePerPageDropDown": undefined,
+          "sizePerPageList": Array [
+            10,
+            25,
+            30,
+            50,
+          ],
+          "sortIndicator": true,
+          "sortName": undefined,
+          "sortOrder": undefined,
+          "toolBar": undefined,
+          "toolbarPosition": "top",
+          "withFirstAndLast": true,
+          "withoutNoDataText": false,
+        }
+      }
+      pagination={true}
+      printable={false}
+      replace={false}
+      scrollTop={undefined}
+      search={true}
+      searchPlaceholder={undefined}
+      selectRow={
+        Object {
+          "bgColor": "#fff2fc",
+          "clickToSelect": true,
+          "mode": "checkbox",
+          "unselectable": Array [
+            1,
+          ],
+        }
+      }
+      strictSearch={undefined}
+      striped={true}
+      tableBodyClass={null}
+      tableContainerClass={null}
+      tableFooterClass={null}
+      tableHeaderClass={null}
+      tableStyle={undefined}
+      trClassName=""
+      trStyle={undefined}
+      version="3"
+      withoutTabIndex={false}
+    >
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFieldType="string"
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="id"
+        dataFormat={undefined}
+        dataSort={true}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={true}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={true}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width={null}
+      >
+        ID
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFieldType="string"
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="email"
+        dataFormat={[Function]}
+        dataSort={true}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width={null}
+      >
+        Email
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFieldType="string"
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="roledisplay"
+        dataFormat={undefined}
+        dataSort={true}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={
+          Object {
+            "options": Object {
+              "values": Array [
+                "Administrator",
+                "Customer",
+              ],
+            },
+            "type": "select",
+          }
+        }
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width={null}
+      >
+        Role
+      </TableHeaderColumn>
+    </BootstrapTable>
+  </section>
+</div>
+`;

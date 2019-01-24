@@ -1,0 +1,47 @@
+$white: #fff;
+$dark-grey: #161B1A;
+
+$brand-primary: #FFAC10 !default;
+$brand-primary-darker: darken($brand-primary, 15%) !default;
+$brand-background: $dark-grey !default;
+$brand-background-light-gray: lighten($brand-background, 5%);
+
+$brand-background-light: #f6f6f6;
+
+$brand-background-lighter: $white;
+
+$brand-type-light: $white !default;
+
+$sidebar: 53px;
+$sidebar-open: 260px;
+
+$font-family-primary: 'Oxygen';
+
+/**Legends**/
+$wifi: #95dfd8;
+$user: #33bfe1;
+$auto: #35a59b;
+$bt: #3dbfdf;
+$wired: #8fc6c1;
+$wire: #8fc6c1;
+$ble: #8ebcc5;
+$zigm: #bcc2c4;
+$udp: #95dfd8;
+$tcp: #3dbfdf;
+$ios: #44d5c8;
+$android: #33bfe1;
+$windows: #95dfd8;
+$ap: #486f82;
+$other: #39484f;
+$http: #95dfd8;
+$tls: #3dbfdf;
+$dns: #8fc6c1;
+$smb: #8ebcc5;
+$smtp: #bcc2c4;
+$failed: #c0c0c0;
+$tcp: #3dbfdf;
+$icmp: #c0c0c0;
+$unknown: #000;
+$ios: #34a59b;
+$linux: #44d5c8;
+$keyMissing: #ff8d6d;

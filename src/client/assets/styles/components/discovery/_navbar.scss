@@ -1,0 +1,42 @@
+$nav-hor-pill-background: #8E9AA0;
+$nav-hor-pill-background-dark: #39484F;
+
+#discovery {
+    background: $brand-background-lighter;
+}
+
+ul.nav-hor-container {
+    margin-top: 26px;
+    background: $brand-background-lighter;
+    li {
+        background: $nav-hor-pill-background;
+        border: 0;
+        font-size: 1rem;
+        font-family: $font-family-primary;
+        font-weight: 700;
+        &:hover, &:focus {
+            a {
+                font-size: 1rem;
+                color: $brand-type-light;
+            }
+        }
+        &.active {
+            background: $nav-hor-pill-background-dark;
+            &::after {
+                border: 0;
+                border-top: 8px solid $nav-hor-pill-background-dark;
+                border-right: 8px solid transparent;
+                border-left: 8px solid transparent;
+                border-bottom: 0px solid transparent;
+            }
+
+            a {
+                font-size: 1rem;
+            }
+        }
+
+        a {
+            color: $brand-type-light;
+        }
+    }
+}

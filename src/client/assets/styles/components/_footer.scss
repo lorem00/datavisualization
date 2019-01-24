@@ -1,0 +1,30 @@
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background: $brand-background-light;
+    margin-left: $sidebar;
+    box-shadow: -1px 0px 0px 1px rgba(10,10,10, 0.2);
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: ($grid-gutter-width / 6) $grid-gutter-width;
+        p.footer-text {
+            font-size: 1rem;
+            font-family: $font-family-primary;
+        }
+    }
+    .footer-social {
+        display: flex;
+        img {
+            margin: 0 ($grid-gutter-width / 6);
+        }
+        .footer-logo {
+            width: 124px;
+            height: auto;
+        }
+    }
+}

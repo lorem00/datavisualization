@@ -1,0 +1,42 @@
+.device-container{
+  margin-top:40px;
+}
+.device-type{
+  float: left;
+
+}
+
+
+.deviceManufacturerChart, .deviceOsChart{
+  position: relative;
+  width:100%;
+  .domain {
+    display: none;
+  }
+}
+.device-type-legends{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    li{
+      list-style: none;
+    }
+}
+.legend{
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+.devices-link{
+  cursor:pointer;
+  font-size: 12px;
+}
+.breadcrumbs{
+  margin-left: 10px;
+}

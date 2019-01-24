@@ -30,4 +30,3 @@ _Mock server will run at port 3000 by default, and devserver will boot up at por
 
 - `$ npm run build`
 - `$ npm start`
-

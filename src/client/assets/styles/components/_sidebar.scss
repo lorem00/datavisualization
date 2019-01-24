@@ -1,0 +1,92 @@
+#sidebar {
+    z-index: 1001;
+    position: fixed;
+    height: 100%;
+    width: $sidebar;
+    overflow-y: auto;
+    background: #252b2d url('./../images/pattern4.jpg') repeat;
+    .sidebar-logo {
+        width: 90%;
+        height: auto;
+        margin: 20px 0px;
+        margin-left: 10px;
+        img.isologo {
+            height: 22px;
+            width: auto;
+        }
+        img.logo {
+            height: 22px;
+            width: auto;
+            margin-left: 4px;
+        }
+    }
+    .content-wrapper {
+        height: 100%;
+        .user-profile {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+        }
+    }
+    .category-content {
+        position: relative;
+        line-height: 20px;
+        color: #fff;
+        .dropdown-user {
+            user-select: none;
+        }
+        .dropdown-toggle {
+            &>* {
+                display: inline-block;
+            }
+            .media-body {
+                width: auto;
+                margin: 0 10px;
+                margin-top: 12px;
+            }
+            .caret {
+                margin-top: 20px;
+                vertical-align: top;
+                border-top: 0px;
+                border-bottom: 4px dashed;
+            }
+        }
+        .dropdown-menu {
+            position: relative;
+            width: 100%;
+            min-width: 180px;
+            padding: 7px 0;
+            color: $brand-type-light;
+            -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,.1);
+            position: relative;
+            background-color: $brand-background-light-gray;
+            margin-bottom: $grid-gutter-width / 2;
+            & li>a {
+                color: $brand-type-light;
+                &:hover {
+                    color: $dark-grey;
+                    i {
+                        color: $dark-grey;
+                    }
+                }
+                &>i{
+                    margin-right: 12px;
+                    float: left;
+                    margin-top: 2px;
+                    top: 0;
+                    color:$brand-type-light;
+                }
+            }
+        }
+    }
+
+    .hidden-label {
+        display: none;
+    }
+}
+
+.wrapper.toggled #sidebar {
+  width: $sidebar-open;
+}

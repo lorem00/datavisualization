@@ -1,0 +1,55 @@
+.deviceTypesCheckBoxes{
+
+  padding-top: 56px;
+  margin-left: -30px;
+
+  .inactive{
+    display: none;
+  }
+
+  .active{
+    display:block;
+  }
+ .divider{
+    height:40px;
+  }
+  .guest{
+      color:#B4E6EF
+  }
+  .corporate{
+      color:#3dbfdf
+  }
+  .wired{
+      color:#95dfd8
+  }
+
+  .hotspots{
+      color:#FAABAD
+  }
+  .neighbor{
+      color:#ceae7e
+  }
+  .not_associated{
+      display: inline-block;
+      margin-top:40px;
+      color:#FD8E5F;
+  }
+  .disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
+    .glyphicon{
+        cursor: not-allowed;
+    }
+    span{
+      color:#575555;
+    }
+
+  }
+  div{
+    .glyphicon{
+      cursor:pointer;
+      color:#575555;
+      margin-right: 2px;
+    }
+  }
+}
