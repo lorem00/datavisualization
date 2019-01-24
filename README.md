@@ -26,7 +26,6 @@ const rest = new RestConfig('').prod();
 
 _Mock server will run at port 3000 by default, and devserver will boot up at port 8080_
 
-### Running Production mode
+check following link for network topology chart . http://localhost:8080/discovery/location/topology
 
-- `$ npm run build`
-- `$ npm start`
+annd check other tabs as well .
