@@ -28,4 +28,4 @@ _Mock server will run at port 3000 by default, and devserver will boot up at por
 
 check following link for network topology chart . http://localhost:8080/discovery/location/topology
 
-annd check other tabs as well .
+and check other tabs as well .
